@@ -87,7 +87,7 @@ public class MavenWrapperDownloader {
             downloadFileFromURL(url, outputFile);
             System.out.println("Done");
             System.exit(0);
-        } catch (Throwable e) {
+        } catch (Exception e) {
             System.out.println("- Error downloading");
             e.printStackTrace();
             System.exit(1);
